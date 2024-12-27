@@ -22,13 +22,31 @@ The `SAP Bikes Sales` database contains various tables that represent business d
 
 ## Tables Involved
 
-- **Addresses**: Contains information about addresses.
-- **BusinessPartners**: Contains details about business partners.
-- **Employees**: Contains employee information.
-- **ProductCategories** & **ProductCategoryText**: Describe product categories and their descriptions.
-- **Products** & **ProductTexts**: Contain product details and product descriptions.
-- **SalesOrderItems**: Contains details of individual items within a sales order.
-- **SalesOrders**: Contains information about sales orders.
+- **Addresses**: Contains information about addresses:
+
+    ![image alt]( https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Adresses%20Table.PNG)
+ 
+- **BusinessPartners**: Contains details about business partners:
+  
+   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/BusinessPartners%20Table.PNG)
+  
+- **Employees**: Contains employee information:
+
+![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employees%20Table.PNG)
+  
+- **ProductCategories** & **ProductCategoryText**: Describe product categories and their descriptions:
+    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategories%20Table.PNG)
+    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategory%20Text%20Table.PNG)
+  
+- **Products** & **ProductTexts**: Contain product details and product descriptions:
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductTexts%20Table.PNG)
+   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Products%20Table.PNG)
+  
+- **SalesOrderItems**: Contains details of individual items within a sales order:
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/SalesOrderItemsTable.PNG)
+  
+- **SalesOrders**: Contains information about sales orders:
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/SalesOrders%20Table.PNG)
 
 ## Key SQL Queries
 
