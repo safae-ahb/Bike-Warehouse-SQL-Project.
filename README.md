@@ -58,7 +58,7 @@ The `SAP Bikes Sales` database contains various tables that represent business d
  ### 2. Database Diagram and Relationships
 In addition to the data cleaning and analysis, a database diagram has been created to visualize the relationships between different tables in the SAP Bikes database. This diagram provides a clear understanding of how the tables are connected and how data flows through the system.
 
-https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Diagram.PNG?raw=true
+![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Diagram.PNG?raw=true)
 
 
 The key relationships include:
