@@ -53,11 +53,11 @@ The `SAP Bikes Sales` database contains various tables that represent business d
 ### 1. Data Cleaning and Transformation:
 
 - **Addresses Table**:
-   - Removed duplicate `ADDRESSID`.
+   - Checking for duplicates `ADDRESSID`.
    
 - **BusinessPartners Table**:
-   - Dropped unnecessary `FAXNUMBER` column.
-   - Removed duplicates and handled missing or incorrect data.
+   - Handled duplicates, missing or incorrect data.
+   - Dropped the unnecessary FAXNUMBER column because it was empty.
 
 - **Employee Table**:
    - Dropped unnecessary columns.
@@ -83,48 +83,48 @@ The key relationships include:
 
 Sales Orders are linked to Business Partners and Employees.
 Sales Order Items are linked to Sales Orders and Products.
-Addresses are linked to Business Partners.
-Product Categories are linked to Products.
+Addresses are linked to Business Partners and Employees.
+Combined Product Categories are linked to Products and Employees.
 This relational model helps ensure that the data can be queried effectively and that all analysis is based on a solid data foundation.
 
 ### 3. Business Insights:
 
 - **Top-selling Products**:
    - Identified products with the highest sales quantities and total sales revenue.
+     
+     ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Highest%20sales%20quantities.PNG)
+     
+ 
+ - Identified products with the highest total sales revenue.
 
-```sql
-SELECT 
-    Products.PRODUCTID, 
-    SUM(SalesOrderItems.QUANTITY) AS TotalQuantity
-FROM 
-    SalesOrderItems
-JOIN 
-    Products ON SalesOrderItems.PRODUCTID = Products.PRODUCTID
-GROUP BY 
-    Products.PRODUCTID
-ORDER BY 
-    TotalQuantity DESC;
-```
+    ![image alt]( https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Highest%20total%20sales%20revenue..PNG)
+
 
 - **Sales Performance by Product Category**:
    - Analyzed the top-performing product categories based on total sales revenue and order counts.
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Top%20performing%20product%20categories%20based%20on%20total%20sales.PNG)
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Top-performing%20product%20categories%20based%20on%20order%20counts.PNG)
 
 - **Employee Sales Performance**:
    - Tracked the highest sales volume and revenue for each employee.
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employee%20Sales%20Performance%201.PNG)
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employee%20Sales%20Performance%202.PNG)
 
 - **Customer Segmentation**:
    - Identified business partners with the highest number of orders and the highest total sales value by location.
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Customer%20Segmentation%201.PNG)
 
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Customer%20Segmentation%202.PNG)
 
 - **Sales Trends Over Time**:
-   - Analyzed sales trends over the past months and years, including calculating the average order value by month or quarter.
+   - Analyzed sales trends over the past months and years.
 
-
+  ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Sales%20Trends%20Over%20Time%201.PNG)
 
 ## Technologies Used
 
