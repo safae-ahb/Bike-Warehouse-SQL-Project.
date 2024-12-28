@@ -35,8 +35,8 @@ The `SAP Bikes Sales` database contains various tables that represent business d
 ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employees%20Table.PNG)
   
 - **ProductCategories** & **ProductCategoryText**: Describe product categories and their descriptions:
-    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategories%20Table.PNG)
-    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategory%20Text%20Table.PNG)
+    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategories%20Table.PNG) .     ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductCategory%20Text%20Table.PNG)
+
   
 - **Products** & **ProductTexts**: Contain product details and product descriptions:
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductTexts%20Table.PNG)
