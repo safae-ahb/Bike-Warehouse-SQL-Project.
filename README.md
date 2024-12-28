@@ -93,11 +93,16 @@ This relational model helps ensure that the data can be queried effectively and 
    - Identified products with the highest sales quantities and total sales revenue.
      
      ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Highest%20sales%20quantities.PNG)
-     
+
+The top-performing product is BX-1013 (Category BX) with a metric of 510, while the lowest is RC-1051 (Category RC) with a metric of 154.
+Category BX stands out with several high-performing products, including BX-1013 (510) and BX-1015 (329). Category RC shows more variation, with RC-1055 (315) and RC-1051 (154), the lowest value in the dataset. Category CC also has a mix, with CC-1023 (440) being the highest in its category.
  
  - Identified products with the highest total sales revenue.
 
     ![image alt]( https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Highest%20total%20sales%20revenue..PNG)
+
+   The top-performing product is EB-1137 (Category EB) with 345,625, and the lowest is BX-1016 (Category BX) with 10,606.75.
+   Category EB leads with products like EB-1137 and EB-1134 . Category RC has strong performers like RC-1054 (221,334.75) but also lower ones like RC-1051 (63,412.125). Category BX shows a mix, with BX-1013 (37,716) being the highest and BX-1016 (10,606.75) the lowest.
 
 
 - **Sales Performance by Product Category**:
@@ -105,26 +110,48 @@ This relational model helps ensure that the data can be queried effectively and 
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Top%20performing%20product%20categories%20based%20on%20total%20sales.PNG)
 
+The top-performing category is EB with 1,153,425, followed by RC with 999,419.75.
+Other categories include MB (354,662), CC (173,026.875), and HB (160,953.625). The lowest-performing category is CB with 46,550.
+
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Top-performing%20product%20categories%20based%20on%20order%20counts.PNG)
+
+The top-performing category is EB with 331, followed by BX with 319 and RC with 306.
+Other categories include HB (243), MB (172), CC (157), CB (153), DB (139), and the lowest-performing category is RO with 110.
 
 - **Employee Sales Performance**:
    - Tracked the highest sales volume and revenue for each employee.
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employee%20Sales%20Performance%201.PNG)
+  
+William Mussen leads with the highest score, followed by Javas Hegde and Philipp Egger. Other top performers include Pénélope Duperré and Haseena al Yousuf.
+At the lower end, Roberta Holloway and Willard Chatman have some of the lowest scores, with Kenneth Weise having the smallest value of 155.
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employee%20Sales%20Performance%202.PNG)
+
+  The ranking of employees by total revenue matches their ranking by sales volume . For example, William Mussen and Javas Hegde have the highest total revenues, while at the lower end, Roberta Holloway and Kenneth Weise have the smallest totals.
 
 - **Customer Segmentation**:
    - Identified business partners with the highest number of orders and the highest total sales value by location.
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Customer%20Segmentation%201.PNG)
+  The ranking of business partners by sales volume is as follows:
+
+The top business partners with the highest sales volume are Bike World Inc (14), followed by Amaze Bikes Inc, MX Bike, and Move by Bike (13 each).
+On the lower end, Trek Cycle AG and Carefree Cycles are among the partners with the smallest sales volume (3 each).
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Customer%20Segmentation%202.PNG)
+
+  The top locations with the highest total revenue are Mumbai (IN) with 304,612, followed by Jebel Ali Free Zone (DU) with 159,812.625 and Ocala (US) with 158,440.625.
+On the lower end, Berlin Mariendorf (DE) has the smallest total revenue with 21,233.625, followed by Talgarth (GB) with 27,811.
 
 - **Sales Trends Over Time**:
    - Analyzed sales trends over the past months and years.
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Sales%20Trends%20Over%20Time%201.PNG)
+
+ The total revenue for the years 2018 and 2019, listed by month, is as follows:
+In 2018, The month with the highest revenue was July with 234,312.75. On the lower end, January had the lowest total.
+For 2019, January recorded a total of 191,072, while February showed a higher total at 217,406.875. June saw a total of 143,820.25, which was the lowest for the year.
 
 ## Technologies Used
 
