@@ -40,6 +40,9 @@ The `SAP Bikes Sales` database contains various tables that represent business d
   
 - **Products** & **ProductTexts**: Contain product details and product descriptions:
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/ProductTexts%20Table.PNG)
+
+  Products Table:
+  
    ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Products%20Table.PNG)
   
 - **SalesOrderItems**: Contains details of individual items within a sales order:
@@ -128,14 +131,14 @@ At the lower end, Roberta Holloway and Willard Chatman have some of the lowest s
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Employee%20Sales%20Performance%202.PNG)
 
-  The ranking of employees by total revenue matches their ranking by sales volume . For example, William Mussen and Javas Hegde have the highest total revenues, while at the lower end, Roberta Holloway and Kenneth Weise have the smallest totals.
+The ranking of employees by total revenue matches their ranking by sales volume . For example, William Mussen and Javas Hegde have the highest total revenues, while at the lower end, Roberta Holloway and Kenneth Weise have the smallest totals.
 
 - **Customer Segmentation**:
    - Identified business partners with the highest number of orders and the highest total sales value by location.
 
   ![image alt](https://github.com/safae-ahb/Bike-Warehouse-SQL-Project./blob/main/Customer%20Segmentation%201.PNG)
-  The ranking of business partners by sales volume is as follows:
 
+   The ranking of business partners by sales volume is as follows:
 The top business partners with the highest sales volume are Bike World Inc (14), followed by Amaze Bikes Inc, MX Bike, and Move by Bike (13 each).
 On the lower end, Trek Cycle AG and Carefree Cycles are among the partners with the smallest sales volume (3 each).
 
